@@ -1,79 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flota de Autos - Alquiler Bariloche</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<nav class="bg-white text-black p-10">
-    <div class="container flex justify-between">
-        <img src="../public/logo.png" class="w-40" alt="logoNex">
-        <div class="container flex justify-end items-center">
-            <span href="https://wa.me/123456789">WhatsApp</span>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+    <nav class="bg-white text-black p-6">
+        <div class="grid grid-cols-2 gap-3 justify-around">
+            <img src="../public/logo.png" class="w-40" alt="logoNex">
+            <div class=" flex items-center justify-end">
+                <span href="https://wa.me/123456789">WhatsApp</span>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
+                <span href="https://wa.me/123456789">Instagram</span>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                    alt="instagram-new--v1" />
+            </div>
+        </div>
+    </nav>
+    <nav class="bg-blue-900 text-white p-4">
+        <div class="container flex justify-between items-center">
+            <div>
+                <a href="index.html" class="mr-4 p-5  hover:bg-white hover:text-blue-900 hover:p-12 ">Inicio</a>
+                <a href="atracciones.html" class="mr-4 p-5 hover:bg-white hover:text-blue-900">Bariloche en Auto</a>
+                <a href="flota.html" class="mr-4 p-5 hover:bg-white hover:text-blue-900">Flota</a>
+                <a href="cabanas.html" class="mr-4 p-5 hover:bg-white hover:text-blue-900">Cabañas</a>
+                <a href="contacto.html" class="mr-4 p-5 hover:bg-white hover:text-blue-900">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fondo-parallax-home">
+        <div class="contenido-parallax-home">
+            <h1>#ConoceLaFlotaNex</h1>
         </div>
     </div>
-</nav>
-<nav class="bg-yellow-300 text-black p-4">
-    <div class="container mx-auto flex justify-between items-center">
-        <span class="text-lg font-bold">Nex Car Rental</span>
-        <div>
-            <a href="index.html" class="mr-4 p-4  hover:bg-black hover:text-yellow-300 hover:p-12 ">Inicio</a>
-            <a href="flota.html" class="mr-4 p-4 hover:bg-black hover:text-yellow-300">Flota</a>
-            <a href="cabanas.html" class="mr-4 p-4 hover:bg-black hover:text-yellow-300">Cabañas</a>
-            <a href="atracciones.html" class="mr-4 p-4 hover:bg-black hover:text-yellow-300">Bariloche en Auto</a>
+
+    <main class="container mx-auto mt-8">
+        <section class="grid grid-cols-3 gap-4 justify-between">
+
+            <div class="bg-white p-4 shadow-2xl text-center">
+                <h2 class="text-lg font-bold">Automoviles</h2>
+                <img class="w-10/12"
+                    src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_05a99b23df054e0eb2c93b3885eaa13e.jpg"
+                    alt="">
+                <p>Soy un auto</p>
+                <a href="https://wa.me/123456789"
+                    class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">Alquilame</a>
+            </div>
+            <div class="bg-white p-4 shadow-2xl text-center">
+                <h2 class="text-lg font-bold">Automoviles</h2>
+                <img class="w-10/12"
+                    src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_05a99b23df054e0eb2c93b3885eaa13e.jpg"
+                    alt="">
+                <p>Soy un auto</p>
+                <a href="https://wa.me/123456789"
+                    class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">Alquilame</a>
+            </div><div class="bg-white p-4 shadow-2xl text-center">
+                <h2 class="text-lg font-bold">Automoviles</h2>
+                <img class="w-10/12"
+                    src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_05a99b23df054e0eb2c93b3885eaa13e.jpg"
+                    alt="">
+                <p>Soy un auto</p>
+                <a href="https://wa.me/123456789"
+                    class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">Alquilame</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-700 text-white h-svh w-svw p-28 mt-12">
+        <div class="container flex mx-auto">
+            <ul>
+                <li><img src="../public/logo.png" alt="logo"></li>
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">Encontranos en </p>
+                </li>
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">Bariloche, Argentina</p>
+                </li>
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">Copyright © 2024. Todos los derechos reservados.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">siteMap</p>
+                </li>
+                <li><a href="index.html" class=" text-white px-4 py-2 mt-4 inline-block">Home</a></li>
+                <li><a href="atracciones.html" class=" text-white px-4 py-2 mt-4 inline-block">Bariloche En Auto</a>
+                </li>
+                <li><a href="flota.html" class=" text-white px-4 py-2 mt-4 inline-block">Flota</a></li>
+                <li><a href="cabanas.html" class=" text-white px-4 py-2 mt-4 inline-block">Cabanias</a></li>
+                <li><a href="contacto.html" class=" text-white px-4 py-2 mt-4 inline-block">Contacto</a></li>
+                <li><a href="sobrenosotros.html" class=" text-white px-4 py-2 mt-4 inline-block">Nosotros</a></li>
+            </ul>
+            <ul class="mx-auto">
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">Conocenos</p>
+                </li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Contactar por
+                        WhatsApp</a></li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Contactar por
+                        Instagram</a></li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Contactar por
+                        Facebook</a></li>
+            </ul>
+            <ul class="mx-auto">
+                <li>
+                    <p class=" text-white px-4 py-2 mt-4 inline-block">Servicios</p>
+                </li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Nuestras redes</a>
+                </li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Preguntas
+                        frecuentes</a></li>
+                <li><a href="https://wa.me/123456789" class=" text-white px-4 py-2 mt-4 inline-block">Políticas de
+                        privacidad</a></li>
+            </ul>
         </div>
-    </div>
-</nav>
-
-<nav class="text-sm" aria-label="Breadcrumb">
-    <ol class="list-none p-0 inline-flex">
-        <li class="flex items-center">
-            <a href="index.html" class="text-gray-500">Home</a>
-            <svg class="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.293 5.293a1 1 0 011.414 0L10 8.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-        </li>
-        <li class="flex items-center">
-            <a href="flota.html" class="text-gray-500">Categorías</a>
-            <svg class="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.293 5.293a1 1 0 011.414 0L10 8.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-        </li>
-    </ol>
-</nav>
-
-<main class="container mx-auto mt-8">
-
-    <section class="grid grid-cols-3 gap-4 justify-between">
-
-        <div class="bg-white p-4 shadow-2xl text-center">
-            <h2 class="text-lg font-bold">Automoviles</h2>
-            <img class="w-auto" src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_05a99b23df054e0eb2c93b3885eaa13e.jpg" alt="">
-            <p>Descubri todos nuestros automoviles</p>
-            <a href="https://wa.me/123456789" class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">descubrir</a>
-        </div>
-        <div class="bg-white p-4 shadow-2xl text-center">
-            <h2 class="text-lg font-bold">Motocicletas y bicicletas</h2>
-            <img class="w-10/12" src="https://fulltimemotos.com.ar/wp-content/uploads/que-cilindrada-de-moto-se-necesita-para-carretera.webp" alt="">
-            <p>Descubri todos nuestros automoviles</p>
-            <a href="https://wa.me/123456789" class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">descubrir</a>
-        </div>
-        <div class="bg-white p-4 shadow-2xl text-center">
-            <h2 class="text-lg font-bold">Otros</h2>
-            <img class="w-9/12 h-9/12" src="https://sunraargentina.com.ar/wp-content/uploads/spyracing.png" alt="">
-            <p>Descubri todos nuestros automoviles</p>
-            <a href="https://wa.me/123456789" class="bg-yellow-600 hover:bg-black text-white px-4 py-2 mt-4 inline-block">descubrir</a>
-        </div>
-    </section>
-</main>
-
-<footer class="bg-black text-white h-svh w-svw p-56 mt-12">
-    <div class="container mx-auto">
-        <p class="text-center">Contacto: info@alquilerbariloche.com | Teléfono: 123-456-789</p>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magnam quo accusamus eum neque, nisi sequi libero itaque cum ipsa quam reprehenderit temporibus incidunt quod nihil placeat laborum officiis at corrupti modi ut expedita, excepturi voluptates! Nihil debitis quia accusantium aspernatur commodi nulla error sit est tempora maxime reiciendis, necessitatibus quos facere magnam, hic quasi quas eligendi. Corrupti, assumenda libero ullam provident eveniet cumque voluptate, dolor, blanditiis quidem similique quibusdam qui magnam. Accusamus repellat neque minima voluptatum ullam aspernatur quibusdam incidunt adipisci velit ex? Quibusdam, voluptatem non officia quasi, enim saepe soluta exercitationem suscipit id illo at deleniti minima sed.</span>
-    </div>
-</footer>
+    </footer>
 
 </body>
+
 </html>

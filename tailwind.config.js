@@ -8,14 +8,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'red' : {
-          'primary': '#FF0000',
-          'secondary': '#00FF00',
-          'tertiary': '#0000FF',
-        }
-        
-      },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
         'roboto' : ['Roboto', 'sans-serif'],
